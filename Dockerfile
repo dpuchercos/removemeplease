@@ -12,7 +12,7 @@ RUN    	apt-get update && \
 
 #       ENTRYPOINT
 
-EXPOSE 80
+EXPOSE 80 443
 
 ENTRYPOINT	["apachectl","-D","FOREGROUND"] 
 
